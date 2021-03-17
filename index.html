@@ -354,6 +354,30 @@
     </section>
     <div class="backdrop is-hidden" data-backdrop>
         <div class="modal">
+            <form class="form">
+                <div class="form-grup">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name">
+                </div>
+
+                <div class="form-grup">
+                <label for="tel">Телефон</label>
+                <input type="tel" name="tel" id="tel">
+                </div>
+
+                <div class="form-grup">
+                <label for="mail">Почта</label>
+                <input type="email" name="mail" id="mail">
+                </div>
+
+                <label for="comment">Комментарий</label>
+                <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+
+                <input type="checkbox" name="agree" value="agree" id="agree">
+                <label for="agree">Соглашаюсь с рассылкой и принимаю</label>
+
+                <button type="submit">Отправить</button>
+            </form>
             <button class="btn-modal" data-close-modal>
                 <svg class="icon-modal" width="100%" height="100%">
                     <use href="./images/symbol-defs.svg#close">
