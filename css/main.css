@@ -515,10 +515,11 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
     transform-origin: center;
-    min-width: 528px;
-    min-height: 581px;
+    /* min-width: 528px;
+    min-height: 581px; */
     background-color: var(--white);
     border-radius: 4px;
+    padding: 40px 39px 40px 41px;
 }
 
 .btn-modal{
@@ -544,28 +545,81 @@ img{
 
 /* FORM */
 
-.form{
-    margin: 40px;
+.form-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.15;
+    color: var(--black);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
+}
+
+.form-link{
+    text-decoration: underline;
+    color: var(--blue);
 }
 
 .form-grup label{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.166;
+    color: var(--black);
     margin-bottom: 4px;
+
 }
 
 .form-grup input{
     padding: 11px 12px;
-    border: 1px solid rgba(33, 33, 33, 0.2);;
+    border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 .form-grup{
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
+
 
 textarea{
     resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    max-height: 120px;
+}
+
+.agree{
+    margin-bottom: 30px;
+}
+
+.form-btn{
+    text-align: center;
+}
+
+.send-btn{
+    height: 50px;
+    width: 200px;
+    padding: 10px 0px;
+    border-radius: 4px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+}
+
+.agree input[type='checkbox']{
+
 }
 
 
@@ -673,5 +727,65 @@ textarea{
     font-size: 14px;
     line-height: 1.714;
     color: var(--gray-op60);
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
+}
+
+.form-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: var(--white);
+    
+}
+
+.sign-icon{
+    margin-left: 10px;
+}
+
+.btn-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    padding: 10px 0px;
+    margin-left: 12px;
+    border-radius: 4px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+}
+
+
+.sign input{
+    padding: 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    background-color: inherit;
+    
+
 }
 

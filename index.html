@@ -355,6 +355,9 @@
     <div class="backdrop is-hidden" data-backdrop>
         <div class="modal">
             <form class="form">
+
+                <h2 class="form-title">Оставьте свои данные,мы вам перезвоним</h2>
+
                 <div class="form-grup">
                 <label for="name">Имя</label>
                 <input type="text" name="name" id="name">
@@ -364,15 +367,20 @@
                 
                 <label for="mail">Почта</label>
                 <input type="email" name="mail" id="mail">
-                </div>
 
                 <label for="comment">Комментарий</label>
                 <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+                </div>
 
+                <div class="agree">
                 <input type="checkbox" name="agree" value="agree" id="agree">
-                <label for="agree">Соглашаюсь с рассылкой и принимаю</label>
+                <label for="agree">Соглашаюсь с рассылкой и принимаю <a class="form-link" href="#">Условия соглашения</a></label>
+                </div>
 
-                <button type="submit">Отправить</button>
+                <div class="form-btn">
+                <button class="send-btn" type="submit">Отправить</button>
+                </div>
+
             </form>
             <button class="btn-modal" data-close-modal>
                 <svg class="icon-modal" width="100%" height="100%">
@@ -405,7 +413,8 @@
                 <li>info@example.com</li>
                 <li>+38 099 111 11 11</li>
             </ul>
-        </address></div>
+        </address>
+    </div>
         <div class="join">
             <p class="join-them">присоединяйтесь</p>
             <ul class="join-list">
@@ -442,6 +451,21 @@
             </a>
         </li>
             </ul>
+        </div>
+        <div class="sign">
+            <p class="sign-title">Подпишитесь на рассылку</p>
+            <form class="form-foot">
+                <div class="form-items">
+                <input type="email" name="sign-mail" id="sign-mail" placeholder="E-mail">
+                <button class="btn-sign" type="submit">Подписаться
+                    <svg class="sign-icon" width="24px" height="24px">
+                    <use href="./images/symbol-defs.svg#icon-send">
+
+                    </use>
+                </svg>
+            </button>
+                </div>
+            </form>
         </div>
         </div>
     </footer>
