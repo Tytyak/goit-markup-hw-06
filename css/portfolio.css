@@ -417,3 +417,63 @@ img{
     color: var(--gray-op60);
 }
 
+.sign{
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
+}
+
+.form-foot-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: var(--white);
+    
+}
+
+.sign-icon{
+    margin-left: 10px;
+}
+
+.btn-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    padding: 10px 0px;
+    margin-left: 12px;
+    border-radius: 4px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+}
+
+
+.sign input{
+    padding: 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    background-color: inherit;
+    
+
+}
+
