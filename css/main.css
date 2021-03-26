@@ -574,10 +574,13 @@ img{
 }
 
 .form-grup input{
-    padding: 11px 12px;
+    width: 100%;
+    padding: 12px 12px 12px 42px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     margin-bottom: 10px;
+    cursor: pointer;
+    outline: none;
 }
 
 .form-grup{
@@ -586,12 +589,40 @@ img{
     margin-bottom: 20px;
 }
 
+.input-conteiner{
+    position: relative;
+}
+
+
+.grup-icon{
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    display: inline-block;
+}
+
+.form-input:focus {
+    border-color: var(--blue);
+    transition: border-color var(--time-function) var(--time);
+}
+
+.form-input:focus + .grup-icon {
+    fill: var(--blue);
+    transition: fill var(--time-function) var(--time);
+}
+
 
 textarea{
     resize: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     max-height: 120px;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: var(--blue);
+    transition: border-color var(--time-function) var(--time);
 }
 
 .agree{
